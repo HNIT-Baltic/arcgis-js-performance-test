@@ -28,6 +28,8 @@ Both tests measure:
 npm install
 ```
 
+3. Replace API key in [`tiles3d.js:32`](tiles3d.js) for Google Photorealistic 3D tiles.
+
 ## Running the Application
 
 ### Development Server
@@ -73,7 +75,3 @@ The application attempts to send results to `http://192.168.1.121:3000/save-resu
 - [`tiles3d.js`](tiles3d.js) - 3D Tiles test implementation
 - [`utils.js`](utils.js) - Shared utilities for performance testing and UI
 - [`vite.config.js`](vite.config.js) - Vite configuration with multi-page setup
-
-## API Keys
-
-The 3D Tiles test uses Google's Photorealistic 3D Tiles API. The API key is included in [`tiles3d.js`](tiles3d.js) but you may need to replace it with your own for production use.
