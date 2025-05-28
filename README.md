@@ -28,7 +28,7 @@ Both tests measure:
 npm install
 ```
 
-3. Replace API key in [`tiles3d.js:32`](tiles3d.js) for Google Photorealistic 3D tiles.
+3. Create Environment .env file using sample([.env.sample](.env.sample)) with your API keys
 
 ## Running the Application
 

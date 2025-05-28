@@ -29,7 +29,7 @@ async function load() {
   const baseLayer = new IntegratedMesh3DTilesLayer({
     url: "https://tile.googleapis.com/v1/3dtiles/root.json",
     customParameters: {
-      key: "<Replace with your API key>",
+      key: import.meta.env.VITE_GOOGLE_API_KEY,
     },
   });
 
